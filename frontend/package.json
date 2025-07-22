@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.10.0",
+    "@pinia/nuxt": "^0.11.1",
+    "@speechmatics/real-time-client": "^7.0.2",
+    "materialize-css": "^1.0.0",
+    "nuxt": "^3.17.7",
+    "pinia": "^3.0.3",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "packageManager": "pnpm@10.13.1+sha512.37ebf1a5c7a30d5fabe0c5df44ee8da4c965ca0c5af3dbab28c3a1681b70a256218d05c81c9c0dcf767ef6b8551eb5b960042b9ed4300c59242336377e01cfad",
+  "devDependencies": {
+    "@nuxt/icon": "^1.15.0",
+    "@nuxt/test-utils": "^3.19.2",
+    "@vitejs/plugin-vue": "^6.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "^30.0.4",
+    "happy-dom": "^18.0.1",
+    "playwright-core": "^1.54.1",
+    "ts-node": "^10.9.2",
+    "vitest": "^3.2.4"
+  }
+}
